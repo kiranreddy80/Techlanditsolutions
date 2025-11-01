@@ -27,8 +27,8 @@ const Contact = () => {
         setResponseMessage("");
 
         try {
-            const API_URL = "https://legacy.techlanditsolutions.com/api/contacts";
-
+            //const API_URL = "https://legacy.techlanditsolutions.com/api/contacts";
+            const API_URL ="https://formsubmit.co/ajax/info@techlanditsolutions.com";
             const response = await axios.post(API_URL, formData, {
                 headers: {
                     "Content-Type": "application/json",
@@ -121,7 +121,7 @@ const Contact = () => {
                                         rel="noreferrer"
                                         className="contact-item__link"
                                     >
-                                        VR Sunshine, 302, Patrika Nagar, HITEC City, Hyderabad, Telangana 500081
+                                        Flat No. 101, Sirisampada Hitec Apartment, H. No. 1-63/C/8/2,Plot No. 2, Block No. 8, Kavuri Hills Madhapur, Serilingampally, Hyderabad, Telangana 500081
                                     </a>
                                 </div>
                             </div>

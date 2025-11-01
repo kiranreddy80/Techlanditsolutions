@@ -10,6 +10,9 @@ import DetailedServices from "./Pages/Services/DetailedServices";
 import Portfolio from "./Pages/Projects/Portfolio";
 import WebAllProjects from "./Pages/Projects/WebAllProjects";
 import ProjectDescription from "./Pages/Projects/ProjectDescription";
+import BlogList from "./Pages/BlogList";
+import BlogScreen from "./Pages/BlogScreen";
+import TeamGallery from "./Pages/Blogs/TeamGallery";
 
 const App = () => {
   useEffect(() => {
@@ -37,6 +40,11 @@ const App = () => {
           <Route path="services" element={<DetailedServices />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="team" element={<><OurTeam /><TeamBlogs /></>} />
+            <Route path="/team-gallery" element={<TeamGallery />} />
+          <Route path="blogs">
+            <Route index element={<BlogList />} />  
+            <Route path=":id" element={<BlogScreen />} />
+          </Route>
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio/:category" element={<WebAllProjects />} />
           <Route path="portfolio/:category/:id" element={<ProjectDescription />} />

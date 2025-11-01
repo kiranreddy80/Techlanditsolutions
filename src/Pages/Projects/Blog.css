@@ -1,0 +1,197 @@
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+ 
+.blog-main-title {
+  color: #9959F3;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: clamp(1.5rem, 3vw, 2rem); /* Fluid font size */
+  font-weight: 600; /* Default weight */
+  line-height: 1.3;
+}
+ 
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+ 
+.blog-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+ 
+.blog-content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+ 
+.blog-image-container {
+  flex: 0 0 40%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.blog-image {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+ 
+.blog-image:hover {
+  transform: scale(1.03);
+}
+ 
+.blog-text {
+  flex: 1;
+  padding: 10px 20px;
+}
+ 
+.blog-meta {
+  margin-bottom: 10px;
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem); /* Fluid font size */
+  color: #666;
+  font-weight: 400;
+}
+ 
+.blog-date {
+  margin-right: 20px;
+}
+ 
+.blog-title {
+  color: #333;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-size: clamp(1.1rem, 2vw, 1.3rem); /* Fluid font size */
+  font-weight: 600; /* Default weight */
+  line-height: 1.4;
+}
+ 
+.blog-title:hover {
+  color: #9959F3;
+}
+ 
+.short-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: clamp(0.9rem, 1.5vw, 1rem); /* Fluid font size */
+  font-weight: 400; /* Default weight */
+}
+ 
+.read-more-btn {
+  display: inline-block;
+  color: #9959F3;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: clamp(0.9rem, 1.5vw, 1rem); /* Fluid font size */
+}
+ 
+.read-more-btn:hover {
+  color: #7a3dc5;
+  text-decoration: underline;
+}
+ 
+/* Responsive styles with font weight adjustments */
+@media (max-width: 992px) {
+  .blog-content {
+    flex-direction: column;
+  }
+ 
+  .blog-image-container {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+ 
+  .blog-image {
+    max-height: 350px;
+  }
+ 
+  /* Font weight adjustments for tablets */
+  .blog-title {
+    font-weight: 500;
+  }
+  .short-description {
+    font-weight: 350;
+  }
+}
+ 
+@media (max-width: 768px) {
+  .blog-main-title {
+    font-weight: 500;
+  }
+ 
+  .blog-card {
+    margin: 0 10px;
+  }
+ 
+  /* Font weight adjustments for small tablets */
+  .blog-title {
+    font-weight: 450;
+  }
+  .short-description, .blog-meta {
+    font-weight: 300;
+  }
+}
+ 
+@media (max-width: 576px) {
+  .blog-container {
+    padding: 15px;
+  }
+ 
+  /* Font weight adjustments for mobile */
+  .blog-main-title {
+    font-weight: 450;
+  }
+  .blog-title {
+    font-weight: 400;
+  }
+  .short-description {
+    font-weight: 300;
+  }
+  .read-more-btn {
+    font-weight: 500;
+  }
+ 
+  .blog-content {
+    padding: 15px;
+  }
+ 
+  .blog-meta {
+    flex-direction: column;
+    font-weight: 300;
+  }
+ 
+  .blog-date {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+ 
+/* Special cases for very small devices */
+@media (max-width: 400px) {
+  .blog-title {
+    font-weight: 350;
+  }
+  .short-description {
+    font-weight: 250;
+  }
+}

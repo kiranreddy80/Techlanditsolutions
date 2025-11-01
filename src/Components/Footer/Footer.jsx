@@ -125,7 +125,7 @@ const Footer = () => {
 									<ul className="links">
 										<li ><a href="tel:+917842385604">+917842385604</a></li>
 										<li><a href="mailto:helldesigner@gmail.com">info@techlanditsolutions.com</a></li>
-										<li><a href="https://maps.app.goo.gl/N13ixNnC7UHf7nwT9" rel="noreferrer" target="_blank">VR Sunshine, 302, Patrika Nagar, HITEC City, Hyderabad, Telangana 500081</a></li>
+										<li><a href="https://maps.app.goo.gl/N13ixNnC7UHf7nwT9" rel="noreferrer" target="_blank">Flat No. 101, Sirisampada Hitec Apartment, H. No. 1-63/C/8/2,Plot No. 2, Block No. 8, Kavuri Hills Madhapur, Serilingampally, Hyderabad, Telangana 500081</a></li>
 									</ul>
 
 								</div>
@@ -139,8 +139,8 @@ const Footer = () => {
 								</div>
 								<div className="working-hours" style={{ width: '60%' }}>
 									<h3>Working Hours</h3>
-									<p><i className="fas fa-clock"></i> Monday - Friday: 9:00 AM - 6:00 PM</p>
-									<p><i className="fas fa-clock"></i> Saturday: 10:00 AM - 4:00 PM</p>
+									<p><i className="fas fa-clock"></i> Monday - Friday: 9:30 AM - 6:30 PM</p>
+									{/* <p><i className="fas fa-clock"></i> Saturday: 10:00 AM - 4:00 PM</p> */}
 									<p><i className="fas fa-clock"></i> Sunday: Closed</p>
 								</div>
 

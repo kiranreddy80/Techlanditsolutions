@@ -25,8 +25,8 @@ const QuickContact = ({ close }) => {
         setResponseMessage("");
 
         try {
-            const API_URL = "https://legacy.techlanditsolutions.com/api/contacts";
-
+            //const API_URL = "https://legacy.techlanditsolutions.com/api/contacts";
+            const API_URL ="https://formsubmit.co/ajax/info@techlanditsolutions.com";
             const response = await axios.post(API_URL, formData, {
                 headers: {
                     "Content-Type": "application/json",

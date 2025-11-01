@@ -50,6 +50,7 @@ const Navbar = () => {
                 { path: "/services", label: "Services" },
                 { path: "/portfolio", label: "Portfolio" },
                 { path: "/team", label: "Our Team" },
+                { path: "/blogs", label: "Blogs" },
                 { path: "/contact", label: "Contact Us" },
               ].map((item) => (
                 <li className="nav-item" key={item.path} onClick={() => setscrolltoTop((prev) => !prev)}>

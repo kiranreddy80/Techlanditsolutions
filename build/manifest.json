@@ -3,7 +3,7 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "logononame.webp",
+      "src": "favicon.ico",
       "sizes": "64x128 32x64 24x48 16x32",
       "type": "image/webp"
     },
