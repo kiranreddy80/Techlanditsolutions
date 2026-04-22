@@ -22,7 +22,7 @@ const IntroSection = () => {
 					<div className="intro-content">
 						<h1 className="intro-title">Digital Marketing & Web Development in Hyderabad | Techland IT</h1>
 						<p className="intro-description">
-							Techland IT Solutions offers top-notch digital marketing, web development,
+							Techland Software Technologies LLP offers top-notch digital marketing, web development,
 							e-commerce, app development, and UI/UX services in Hyderabad.
 						</p>
 						{/* <ul className="intro-services">

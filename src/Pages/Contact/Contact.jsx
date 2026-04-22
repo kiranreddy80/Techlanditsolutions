@@ -56,9 +56,9 @@ const Contact = () => {
     return (
         <>
             <div className='contact-title-header'>
-                <h1 className="contact-title">Contact Techland IT Solutions | Hyderabad IT Services</h1>
+                <h1 className="contact-title">Contact Techland Software Technologies LLP | Hyderabad IT Services</h1>
                 <p className="contact-content">
-                    Get in touch with Techland IT Solutions for expert digital marketing, web development,
+                    Get in touch with Techland Software Technologies LLP for expert digital marketing, web development,
                     and app development services in Hyderabad.
                 </p>
             </div>
@@ -205,7 +205,7 @@ const Contact = () => {
                     loop
                     muted
                     style={{ mixBlendMode: 'multiply', marginTop: '-50px', flex: '1 1' }}
-                    aria-label="Introduction video about Techland IT Solutions"
+                    aria-label="Introduction video about Techland Software Technologies LLP"
                 />
             </div>
         </>
