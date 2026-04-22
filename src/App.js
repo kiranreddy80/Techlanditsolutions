@@ -13,6 +13,9 @@ import ProjectDescription from "./Pages/Projects/ProjectDescription";
 import BlogList from "./Pages/BlogList";
 import BlogScreen from "./Pages/BlogScreen";
 import TeamGallery from "./Pages/Blogs/TeamGallery";
+import PrivacyPolicy from "./Pages/Legal/PrivacyPolicy";
+import TermsAndConditions from "./Pages/Legal/TermsAndConditions";
+import RefundPolicy from "./Pages/Legal/RefundPolicy";
 
 const App = () => {
   useEffect(() => {
@@ -48,6 +51,9 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio/:category" element={<WebAllProjects />} />
           <Route path="portfolio/:category/:id" element={<ProjectDescription />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="refund-policy" element={<RefundPolicy />} />
         </Route>
       </Routes>
     </Router>

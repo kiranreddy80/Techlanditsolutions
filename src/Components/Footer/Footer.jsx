@@ -126,6 +126,7 @@ const Footer = () => {
 										<li ><a href="tel:+917842385604">+917842385604</a></li>
 										<li><a href="mailto:helldesigner@gmail.com">info@techlanditsolutions.com</a></li>
 										<li><a href="https://maps.app.goo.gl/N13ixNnC7UHf7nwT9" rel="noreferrer" target="_blank">Flat No. 101, Sirisampada Hitec Apartment, H. No. 1-63/C/8/2,Plot No. 2, Block No. 8, Kavuri Hills Madhapur, Serilingampally, Hyderabad, Telangana 500081</a></li>
+										<li className="gstin-item"><span className="gstin-label">GSTIN:</span> 36AAXFT3655P1Z1</li>
 									</ul>
 
 								</div>
@@ -150,9 +151,16 @@ const Footer = () => {
 						</div >
 					</div >
 
-					<div className="copy-right" >
-						<span>Copyright by @Techland- 2025</span>
-					</div >
+					<div className="footer-bottom">
+						<ul className="policy-links">
+							<li><a href="/refund-policy">Refund Policy</a></li>
+							<li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+							<li><a href="/privacy-policy">Privacy Policy</a></li>
+						</ul>
+						<div className="copy-right" >
+							<span>Copyright by @Techland- 2025</span>
+						</div >
+					</div>
 
 				</div >
 			</footer >
